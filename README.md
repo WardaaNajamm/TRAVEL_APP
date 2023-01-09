@@ -9,11 +9,11 @@ The project is based on a dataset of 1.56 GB consisting of around 14 million row
 2. Stack using Link List
 3. Doubly Linked List
 4. K-Mean Clustering
-5. NaiveBayes Algorithm
+5. Naive Bayes Algorithm
 6. CSV Filing
 7. Statistics of Travel App
 
-![]()
+![](https://github.com/WardaaNajamm/TRAVEL_APP/blob/main/pic1.png)
 
 ## Admin Interface
 1. Insert a new Ride Record
@@ -26,17 +26,33 @@ The project is based on a dataset of 1.56 GB consisting of around 14 million row
 8. Display File for all the Rides (from morning to evening)
 9. Search by Time, Details of a Ride
 
-![]()
+![](https://github.com/WardaaNajamm/TRAVEL_APP/blob/main/pic2.png)
 
 ## Customer Interface
 1. Search Details of Ride via a License Number
 2. Check Average Fare at a Particular Time
 3. Check If You Have Covid19 Symptoms before traveling
-
-![]()
-
 4. Help and Support
 
-![]()
+![](https://github.com/WardaaNajamm/TRAVEL_APP/blob/main/pic3.png)
+
+## Naive Bayes Algorithm
+The class of Naive Bayes contains three functions:
+-Filing
+-Calculate Probability
+-Predict Covid
+The program will ask the user to input the number of symptoms, here Fever is considered as the basic symptom. The CSV filing will provide the total number of cases of each symptom Fever, Tiredness, Shortness of Breath, and Cough, the probab variable will store probability of each symptom and at the end, it will be divided by the probability of Fever, the formula will be used to produce an output.
+
+![](https://github.com/WardaaNajamm/TRAVEL_APP/blob/main/pic4.png)
+
+![](https://github.com/WardaaNajamm/TRAVEL_APP/blob/main/pic5.png)
 
 ## Statistics of Travel App
+A feature of K-mean clustering will be used to produce statistics. Clusters are made on the basis of fare amount, each cluster will store the ride lying in one of the ranges (difference of fare is around 21 based on the maximum and minimum value). CSV Filing will store respective clusters.
+
+![](https://github.com/WardaaNajamm/TRAVEL_APP/blob/main/pic6.png)
+
+## Conclusion
+Most of the Data Structure concepts have been used here. The travel app provides different functionalities to admin and customers through which they both can perfrom each task. This program uses K-mean clustering and Naive Bayes Algorithm adding more of a statistical approach towards the project.
+
+
